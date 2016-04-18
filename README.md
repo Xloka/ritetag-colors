@@ -1,0 +1,2 @@
+# ritetag-colors
+Colorize hashtags
