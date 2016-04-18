@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ritetag Colors JS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/dist/ritetag-colors.css">
+</head>
+<body>
+<article class="ritecolor">
+	<h1> Hello this is ritetag Colors #javascript library</h1>
+
+	<p>convert all hashtags in you page or article to ritetag colors.</p>
+
+	<p><strong>Example: </strong> #bot </p>
+	
+</article>
+
+<script src="/dist/ritetag-colors.js"></script>
+<script>
+window.onload = function(){
+	var rite = ritetagcolors;
+	rite.CONSUMER_KEY = '';
+    	rite.CONSUMER_SECRET = '';
+    	rite.OAUTH_TOKEN = '';
+    	rite.OAUTH_TOKEN_SECRET = '';
+	rite.init();
+};
+</script>
+</body>
+</html>
