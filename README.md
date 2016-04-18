@@ -8,10 +8,10 @@ Colorize hashtags
 <script>
 window.onload = function(){
 	var rite = ritetagcolors;
-	rite.CONSUMER_KEY = '';
-    	rite.CONSUMER_SECRET = '';
-    	rite.OAUTH_TOKEN = '';
-    	rite.OAUTH_TOKEN_SECRET = '';
+	rite.CONSUMER_KEY = 'Consumer Key';
+	rite.CONSUMER_SECRET = 'Consumer Secret';
+	rite.OAUTH_TOKEN = 'Token';
+	rite.OAUTH_TOKEN_SECRET = 'Token Secret';
 	rite.init();
 };
 </script>
