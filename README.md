@@ -25,4 +25,4 @@ window.onload = function(){
 </script>
 ```
 
-check the full example in [indek.html](https://github.com/Xloka/ritetag-colors/blob/master/index.html)
+check the full example in [index.html](https://github.com/Xloka/ritetag-colors/blob/master/index.html)
