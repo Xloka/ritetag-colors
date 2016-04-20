@@ -2,7 +2,15 @@
 Colorize hashtags
 
 
-## usage example 
+## usage example
+
+you should add class to your article or div called "ritecolor" like this 
+```html
+<article class="ritecolor">
+
+</article>
+```
+then you require the js file , and call the init function after adding you keys  
 ```html
 <script src="/dist/ritetag-colors.js"></script>
 <script>
