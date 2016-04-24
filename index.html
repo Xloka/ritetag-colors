@@ -11,20 +11,18 @@
 
 	<p>convert all hashtags in you page or article to ritetag colors.</p>
 
-	<p><strong>Example: </strong> #bot </p>
+	<p><strong>Example: </strong> #bot #javascript </p>
 	
 </article>
 
 <script src="/dist/ritetag-colors.js"></script>
 <script>
-window.onload = function(){
-	var rite = ritetagcolors;
-	rite.CONSUMER_KEY = '';
-    	rite.CONSUMER_SECRET = '';
-    	rite.OAUTH_TOKEN = '';
-    	rite.OAUTH_TOKEN_SECRET = '';
-	rite.init();
-};
+	window.onload = function(){
+		var rite = ritetagcolors;
+		//your api url , see server examples
+		rite.api = "http://localhost/ritetagApiPHP/";		
+		rite.init();
+	};
 </script>
 </body>
 </html>
