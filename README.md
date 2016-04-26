@@ -16,10 +16,8 @@ then you require the js file , and call the init function after adding you keys
 <script>
 window.onload = function(){
 	var rite = ritetagcolors;
-	rite.CONSUMER_KEY = 'Consumer Key';
-	rite.CONSUMER_SECRET = 'Consumer Secret';
-	rite.OAUTH_TOKEN = 'Token';
-	rite.OAUTH_TOKEN_SECRET = 'Token Secret';
+	//your api url , see server examples
+	rite.api = "http://localhost/ritetagApiPHP/";		
 	rite.init();
 };
 </script>
