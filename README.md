@@ -26,5 +26,9 @@ window.onload = function(){
 check the full example in [index.html](https://github.com/Xloka/ritetag-colors/blob/master/index.html)
 
 ## Servers example setup
-	[Pure PHP example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiPHP)
-	[Laravel 5 example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiLaravel)
+
+1. [Pure PHP example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiPHP)
+
+2. [Laravel 5 example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiLaravel)
+
+3. Node/Express : stay tuned
