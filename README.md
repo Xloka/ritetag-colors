@@ -2,15 +2,6 @@
 Colorize hashtags
 
 
-## Servers example setup
-
-### Laravel 5
-1. copy ritetagApiLaravel folder to your www | htdocs.
-2. write your tokens in config/ritetag.php.
-3. edit route of "/api" to the suitable url you want.
-4. route action is api@index , if you change that go and edit api.php controller as well. 
-5. write that url to javascript as usage example shows.
-
 ## usage example
 
 you should add class to your article or div called "ritecolor" like this 
@@ -33,3 +24,7 @@ window.onload = function(){
 ```
 
 check the full example in [index.html](https://github.com/Xloka/ritetag-colors/blob/master/index.html)
+
+## Servers example setup
+	[Pure PHP example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiPHP)
+	[Laravel 5 example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiLaravel)
