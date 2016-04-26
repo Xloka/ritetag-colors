@@ -1,6 +1,6 @@
 # ritetag-colors
 Colorize hashtags
-
+![](https://dl.dropboxusercontent.com/content_link/I06KUgP1ipHC3NC2QZwYOOXSlpVHHtoZ3eXexyNiwk9ywsqmHysqnlqwrZ8VM1x4/file)
 
 ## usage example
 
