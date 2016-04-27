@@ -5,4 +5,5 @@ return [
     'consumer_secret' => '',
     'oauth_token' => '',
     'oauth_token_secret' => '',
+    'domain' => 'localhost'
 ];
