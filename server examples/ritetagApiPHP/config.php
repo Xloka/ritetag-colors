@@ -7,4 +7,4 @@ define('CONSUMER_SECRET', '');
 define('OAUTH_TOKEN', '');
 define('OAUTH_TOKEN_SECRET','');
 //add your domain from which you will send requests
-define('DOMAIN',"localhost");
+define('DOMAIN',"http://127.0.0.1:8080");

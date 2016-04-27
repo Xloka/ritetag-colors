@@ -8,15 +8,7 @@ require_once 'vendor/autoload.php';
 
 require_once 'config.php';
 
-if(isset($_SERVER['HTTP_REFERER']) && !empty($_SERVER['HTTP_REFERER'])) {
-  die("no referer");
-  $ref = $_SERVER['HTTP_REFERER'];
-  $refData = parse_url($ref);
-  if ($refData['host'] !== DOMAIN) {
-  	die("your domain is not permitted");	
-  }
-}
-
+header("Access-Control-Allow-Origin: ".DOMAIN);
 
 $client = new \Ritetag\API\Client(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
 
