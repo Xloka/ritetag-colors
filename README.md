@@ -1,6 +1,6 @@
 # ritetag-colors
 Colorize hashtags check [demo](http://hackforward.ninja/ritetag-colors/index.html)
-![](https://www.dropbox.com/s/uw335f6cq017zwz/ritecolors.png?raw=1)
+![](https://www.dropbox.com/s/1s89vys5zkracu8/f.png?raw=1)
 
 ## usage example
 
