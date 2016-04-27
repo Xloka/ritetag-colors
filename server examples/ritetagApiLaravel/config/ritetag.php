@@ -5,5 +5,5 @@ return [
     'consumer_secret' => '',
     'oauth_token' => '',
     'oauth_token_secret' => '',
-    'domain' => 'localhost'
+    'domain' => 'http://127.0.0.1:8080'
 ];
