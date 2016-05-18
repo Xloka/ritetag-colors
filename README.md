@@ -2,9 +2,10 @@
 Colorize hashtags check [demo](http://hackforward.ninja/ritetag-colors/index.html)
 ![](https://www.dropbox.com/s/1s89vys5zkracu8/f.png?raw=1)
 
-## Installion 
+## Installation 
 
 **Download**
+
 check all releases : [here](https://github.com/Xloka/ritetag-colors/releases)
 
 
