@@ -6,7 +6,7 @@
 
   ritetagcolors = (function() {    
 
-    ritetagcolors.prototype.api = '';
+    ritetagcolors.prototype.client = '';
 
     ritetagcolors.prototype.hashtags = [];
 
@@ -33,7 +33,12 @@
           }
         }
       };
-      req.open('GET', this.api+"?hashtags="+JSON.stringify(this.hashtags));
+      var quer = "";
+      this.hashtags.forEach(function (element, index, array){
+           quer += "hashtags[]="+element+"&";
+      });
+      quer = quer.substring(0, quer.length - 1);	
+      req.open('GET', "https://ritetag.com/api/v2.3/data/hashtag-stats/?"+quer+"&client_id="+this.client,true);
       req.send();
     };
     ritetagcolors.prototype.parseInput = function() {

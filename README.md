@@ -16,8 +16,7 @@ then you require the js file , and call the init function after adding you keys
 <script>
 window.onload = function(){
 	var rite = ritetagcolors;
-	//your api url , see server examples
-	rite.api = "http://localhost/ritetagApiPHP/";		
+	rite.client = "your client id";		
 	rite.init();
 };
 </script>
@@ -25,10 +24,4 @@ window.onload = function(){
 
 check the full example in [index.html](https://github.com/Xloka/ritetag-colors/blob/master/index.html)
 
-## Servers example setup
 
-1. [Pure PHP example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiPHP)
-
-2. [Laravel 5 example](https://github.com/Xloka/ritetag-colors/tree/master/server%20examples/ritetagApiLaravel)
-
-3. Node/Express : stay tuned
