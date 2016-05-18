@@ -1,0 +1,15 @@
+{
+  "name": "ritetag-colors",
+  "homepage": "https://github.com/Xloka/ritetag-colors",
+  "authors": [
+    "Xloka <a.saleh.ismael@gmail.com>"
+  ],
+  "description": "Colorize hashtags within your articles",
+  "main": "/dist/ritetag-colors.js",
+  "keywords": [
+    "ritetag",
+    "colors",
+    "blog"
+  ],
+  "license": "MIT"
+}
