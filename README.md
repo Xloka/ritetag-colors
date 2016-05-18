@@ -2,6 +2,19 @@
 Colorize hashtags check [demo](http://hackforward.ninja/ritetag-colors/index.html)
 ![](https://www.dropbox.com/s/1s89vys5zkracu8/f.png?raw=1)
 
+## Installion 
+
+**Download**
+check all releases : [here](https://github.com/Xloka/ritetag-colors/releases)
+
+
+**Bower**
+
+```
+bower install ritetag-colors
+```
+
+
 ## usage example
 
 you should add class to your article or div called "ritecolor" like this 
