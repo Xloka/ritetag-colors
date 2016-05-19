@@ -45,11 +45,11 @@ h1 .Unknown:before {
 }
 
 .Good {
-    background-color: #f0fff0;
+    background-color: #f0f9ff;
     border: 1px solid #a0beff
 }
 .Good:hover {
-    background-color: #e4f8e4;
+     background-color: #e2eef6;
 }
 .Good:before {
     display: inline-block;
