@@ -25,7 +25,7 @@
             for (var i = res.length - 1; i >= 0; i--) {
               var hashtag = res[i]['tag'];
               var color = res[i]['color'];
-              data = data.replace(new RegExp("#"+hashtag,'gi'), "<a class='"+colors[color]+"' href='https://ritetag.com/hashtag-stats/"+hashtag+"'>#"+hashtag+"</a>");
+              data = data.replace(new RegExp("#"+hashtag,'gi'), "<a target='_blank' class='"+colors[color]+"' href='https://ritetag.com/hashtag-stats/"+hashtag+"'>#"+hashtag+"</a>");
             }
             document.getElementsByClassName('ritecolor')[0].innerHTML = data;
           } else {
