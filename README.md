@@ -1,4 +1,6 @@
 # ritetag-colors
+
+[![Join the chat at https://gitter.im/Xloka/ritetag-colors](https://badges.gitter.im/Xloka/ritetag-colors.svg)](https://gitter.im/Xloka/ritetag-colors?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Colorize hashtags check [demo](http://hackforward.ninja/ritetag-colors/index.html)
 ![](https://www.dropbox.com/s/1s89vys5zkracu8/f.png?raw=1)
 
